@@ -23,8 +23,8 @@ We look at a NLP problem here related to sentiment prediction for stock markets.
 
 ![cluster1](/negative.png)
 
-- For training, we use a lemmatized version. The problem with a stemmed version is the creation of several meaningless words that results from incorrect stemming of certain words.
-- We only use deep learning techniques here. First, we train with a simple model consisting of a Conv and Dense layers and this alone achieves good accuracy. A more sophisticated sequence model is also used but it does not really improve upon the former.
+- For training, we use the lemmatized version. The problem with the stemmed version is the creation of several meaningless words that results from inappropriate stemming of certain words.
+- We only use deep learning techniques here. First, we train with a simple model consisting of Conv and Dense layers and this alone achieves good accuracy. A more sophisticated sequence model with LSTMs is also used but it does not really improve upon the former given the simplicity of the data.
 
 _Tools : python, nltk, TensorFlow, Keras, WordCloud, pandas, gensim, seaborn_
 
