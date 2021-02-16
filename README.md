@@ -13,8 +13,8 @@ We look at a NLP problem here related to sentiment prediction for stock markets.
 
 ## The problem
 
-- To rate sentiments on social media platforms like Twitter, Facebook, etc.
-- Here, we specifically look at texts relating to stock market sentiments. This in turn could predict present or future stock market behavior of specific companies in real time!
+- To rate sentiments of messages on social media platforms like Twitter, Facebook, etc.
+- Here, we specifically look at texts relating to stock market sentiments. This in turn could predict present or future stock market behavior of certain specific companies in real time!
 
 ## Technical Details
 
